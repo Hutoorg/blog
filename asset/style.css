@@ -7,17 +7,18 @@
     background: #fff;
 }
 
-.header {
+header {
     height: 100vh;
     width: 100%;
     padding: 0 8%;
     font-family: 'SF Pro Display', sans-serif;
+    justify-content: space-between;
 }
 
 .name{
     font-weight: 600;
     font-size: 36;
 }
-.name, .headIcon{
+.headIcon{
     margin-top: 1em;
 }
