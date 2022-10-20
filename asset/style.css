@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    background-color: #24252a;
+    background-color: ghostwhite;
 }
 
 .logo {
@@ -23,7 +23,7 @@ header {
 .overlay__content a {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    color: #edf0f1;
+    color: #2b2b2b;
     text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ header {
 
 .cta {
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: darkcyan;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -54,7 +54,7 @@ header {
 }
 
 .cta:hover {
-    background-color: rgba(0, 136, 169, 0.8);
+    background-color: #a68d6e;
 }
 
 /* Mobile Nav */
@@ -70,7 +70,7 @@ header {
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: #24252a;
+    background-color: ghostwhite;
     overflow-x: hidden;
     transition: width 0.5s ease 0s;
 }
