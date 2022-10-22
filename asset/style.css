@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap');
 @import url('https://v1.fontapi.ir/css/SFProDisplay:400;500;700');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -136,14 +137,20 @@ header {
 /* cta = Subscribe */
 
 /* Post style */
-.topicpost {
+.topic-post {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
     font-size: 24px;
 }
 
-.postname {
+.post-name {
     font-family: "SF Pro Display" sans-serif;
     font-weight: 600;
     font-size: 72px;
+}
+
+.post-published-at {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
 }
